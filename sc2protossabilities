@@ -1,0 +1,89 @@
+# Every unit
+        case ABILITY_ID::STOP:                              return "STOP"; // 1
+        case ABILITY_ID::MOVE:                              return "MOVE"; // 255
+        case ABILITY_ID::ATTACK:                            return "ATTACK"; // 1
+
+# Every structure
+        case ABILITY_ID::RALLY_UNITS:                       return "RALLY_UNITS"; // 1
+        case ABILITY_ID::CANCEL:                            return "CANCEL"; // 1
+        case ABILITY_ID::CANCEL_BUILDINPROGRESS:            return "CANCEL_BUILDINPROGRESS"; // 1289
+
+# Gateway
+        case ABILITY_ID::TRAIN_ZEALOT:                      return "TRAIN_ZEALOT"; // 1009
+        case ABILITY_ID::TRAIN_STALKER:                     return "TRAIN_STALKER"; // 1420
+        case ABILITY_ID::TRAIN_HIGHTEMPLAR:                 return "TRAIN_HIGHTEMPLAR"; // 7
+        case ABILITY_ID::TRAIN_DARKTEMPLAR:                 return "TRAIN_DARKTEMPLAR"; // 8
+        case ABILITY_ID::TRAIN_SENTRY:                      return "TRAIN_SENTRY"; // 201
+        case ABILITY_ID::TRAIN_ADEPT:                       return "TRAIN_ADEPT"; // 1181
+# Stargate
+        case ABILITY_ID::TRAIN_PHOENIX:                     return "TRAIN_PHOENIX"; // 516
+        case ABILITY_ID::TRAIN_CARRIER:                     return "TRAIN_CARRIER"; // 866
+        case ABILITY_ID::TRAIN_VOIDRAY:                     return "TRAIN_VOIDRAY"; // 1654
+        case ABILITY_ID::TRAIN_ORACLE:                      return "TRAIN_ORACLE"; // 370
+        case ABILITY_ID::TRAIN_TEMPEST:                     return "TRAIN_TEMPEST"; // 225
+# Robotics Facility
+        case ABILITY_ID::TRAIN_WARPPRISM:                   return "TRAIN_WARPPRISM"; // 350
+        case ABILITY_ID::TRAIN_OBSERVER:                    return "TRAIN_OBSERVER"; // 1038
+        case ABILITY_ID::TRAIN_COLOSSUS:                    return "TRAIN_COLOSSUS"; // 412
+        case ABILITY_ID::TRAIN_IMMORTAL:                    return "TRAIN_IMMORTAL"; // 1405
+        case ABILITY_ID::TRAIN_DISRUPTOR:                   return "TRAIN_DISRUPTOR"; // 343
+# Nexus
+        case ABILITY_ID::TRAIN_PROBE:                       return "TRAIN_PROBE"; // 31329
+        Build mothership core
+# Probe
+        case ABILITY_ID::BUILD_NEXUS:                       return "BUILD_NEXUS"; // 1725
+        case ABILITY_ID::BUILD_PYLON:                       return "BUILD_PYLON"; // 10071
+        case ABILITY_ID::BUILD_ASSIMILATOR:                 return "BUILD_ASSIMILATOR"; // 3683
+        case ABILITY_ID::BUILD_GATEWAY:                     return "BUILD_GATEWAY"; // 4445
+        case ABILITY_ID::BUILD_FORGE:                       return "BUILD_FORGE"; // 736
+        case ABILITY_ID::BUILD_FLEETBEACON:                 return "BUILD_FLEETBEACON"; // 130
+        case ABILITY_ID::BUILD_TWILIGHTCOUNCIL:             return "BUILD_TWILIGHTCOUNCIL"; // 486
+        case ABILITY_ID::BUILD_PHOTONCANNON:                return "BUILD_PHOTONCANNON"; // 2895
+        case ABILITY_ID::BUILD_STARGATE:                    return "BUILD_STARGATE"; // 791
+        case ABILITY_ID::BUILD_TEMPLARARCHIVE:              return "BUILD_TEMPLARARCHIVE"; // 167
+        case ABILITY_ID::BUILD_DARKSHRINE:                  return "BUILD_DARKSHRINE"; // 165
+        case ABILITY_ID::BUILD_ROBOTICSBAY:                 return "BUILD_ROBOTICSBAY"; // 180
+        case ABILITY_ID::BUILD_ROBOTICSFACILITY:            return "BUILD_ROBOTICSFACILITY"; // 714
+        case ABILITY_ID::BUILD_CYBERNETICSCORE:             return "BUILD_CYBERNETICSCORE"; // 756
+        case ABILITY_ID::HARVEST_GATHER_PROBE:              return "HARVEST_GATHER_PROBE"; // 246
+# Pheonix
+        case ABILITY_ID::EFFECT_GRAVITONBEAM:               return "EFFECT_GRAVITONBEAM"; // 807
+        case ABILITY_ID::CANCEL_GRAVITONBEAM:               return "CANCEL_GRAVITONBEAM"; // 18
+# Warp prism
+        case ABILITY_ID::UNLOADALLAT_WARPPRISM:             return "UNLOADALLAT_WARPPRISM"; // 481
+        case ABILITY_ID::UNLOADUNIT_WARPPRISM:              return "UNLOADUNIT_WARPPRISM"; // 204
+        case ABILITY_ID::MORPH_WARPPRISMPHASINGMODE:        return "MORPH_WARPPRISMPHASINGMODE"; // 725
+        case ABILITY_ID::MORPH_WARPPRISMTRANSPORTMODE:      return "MORPH_WARPPRISMTRANSPORTMODE"; // 428
+        case ABILITY_ID::LOADALL:                           return "LOADALL"; // 1
+        case ABILITY_ID::UNLOADALL:                         return "UNLOADALL"; // 1
+        case ABILITY_ID::UNLOADALLAT:                       return "UNLOADALLAT"; // 1
+# Sentry
+        case ABILITY_ID::EFFECT_FORCEFIELD:                 return "EFFECT_FORCEFIELD"; // 1022
+# Templar
+        case ABILITY_ID::MORPH_ARCHON:                      return "MORPH_ARCHON"; // 1963
+# Mothership Core
+        case ABILITY_ID::MORPH_MOTHERSHIP:                  return "MORPH_MOTHERSHIP"; // 53
+        case ABILITY_ID::EFFECT_PHOTONOVERCHARGE:           return "EFFECT_PHOTONOVERCHARGE"; // 1194
+        case ABILITY_ID::EFFECT_TIMEWARP:                   return "EFFECT_TIMEWARP"; // 96
+        case ABILITY_ID::EFFECT_MASSRECALL:                 return "EFFECT_MASSRECALL"; // 1
+# Oracle
+        case ABILITY_ID::EFFECT_ORACLEREVELATION:           return "EFFECT_ORACLEREVELATION"; // 144
+        case ABILITY_ID::BUILD_STASISTRAP:                  return "BUILD_STASISTRAP"; // 133
+# Disruptor
+        case ABILITY_ID::EFFECT_PURIFICATIONNOVA:           return "EFFECT_PURIFICATIONNOVA"; // 468
+# Mothership
+        case ABILITY_ID::EFFECT_MASSRECALL_MOTHERSHIP:      return "EFFECT_MASSRECALL_MOTHERSHIP"; // 6
+# Void ray
+        case ABILITY_ID::EFFECT_VOIDRAYPRISMATICALIGNMENT:  return "EFFECT_VOIDRAYPRISMATICALIGNMENT"; // 398
+# Adept
+        case ABILITY_ID::EFFECT_ADEPTPHASESHIFT:            return "EFFECT_ADEPTPHASESHIFT"; // 1048
+        case ABILITY_ID::CANCEL_ADEPTPHASESHIFT:            return "CANCEL_ADEPTPHASESHIFT"; // 66
+        case ABILITY_ID::CANCEL_ADEPTSHADEPHASESHIFT:       return "CANCEL_ADEPTSHADEPHASESHIFT"; // 98
+# Tempest
+        case ABILITY_ID::EFFECT_TEMPESTDISRUPTIONBLAST:     return "EFFECT_TEMPESTDISRUPTIONBLAST"; // 11
+
+
+
+
+
+

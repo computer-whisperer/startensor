@@ -1,0 +1,20 @@
+include_directories("/home/christian/s2client-api/include")
+
+include_directories(SYSTEM "/home/christian/s2client-api/build/generated")
+
+#bot_simple
+add_executable(hello_starcraft "hello_starcraft.cc")
+add_executable(replay_transcriber "replay_transcriber/replay_transcriber.cc")
+add_library(sc2common "/home/christian/s2client-api/src/sc2api/sc2_common.cc")
+target_link_libraries(hello_starcraft "/home/christian/s2client-api/build/bin/libsc2api.a")
+target_link_libraries(hello_starcraft "/home/christian/s2client-api/build/bin/libsc2lib.a")
+target_link_libraries(hello_starcraft "/home/christian/s2client-api/build/bin/libsc2utils.a")
+target_link_libraries(hello_starcraft "/home/christian/s2client-api/build/bin/libsc2renderer.a")
+target_link_libraries(hello_starcraft sc2common)
+target_link_libraries(hello_starcraft "/home/christian/s2client-api/build/bin/libprotobuf.a")
+target_link_libraries(hello_starcraft "/home/christian/s2client-api/build/bin/libprotoc.a")
+target_link_libraries(hello_starcraft "/home/christian/s2client-api/build/bin/libprotobuf-lite.a")
+target_link_libraries(hello_starcraft "/home/christian/s2client-api/build/bin/libsc2protocol.a")
+target_link_libraries(hello_starcraft "/home/christian/s2client-api/build/bin/libcivetweb.a")
+target_link_libraries(hello_starcraft pthread)
+target_link_libraries(hello_starcraft dl)
