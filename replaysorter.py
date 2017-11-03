@@ -18,9 +18,9 @@ def sort_file(filename):
     new_fname = "{}/{}/{}/{}/{}".format(winner["AssignedRace"], looser["AssignedRace"], winner["MMR"] - winner["MMR"]%100, looser["MMR"] - looser["MMR"]%100, filename)
     os.renames(filename, new_fname)
 
-for filename in os.scandir("."):
-    if filename.path.endswith(".SC2Replay"):
+for filename in os.listdir("."):
+    if filename.endswith(".SC2Replay"):
         try:
-            sort_file(filename.path)
+            sort_file(filename)
         except Exception as e:
             print(e)
